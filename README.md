@@ -9,7 +9,7 @@ Dayous is a 2–8 player game using one or more decks of poker cards. A game las
 ## Key Rules
 - A (highest) -> 2 (lowest)
 - One suit is chosen as the trump suit for the first half of the game. A new trump suit is selected for the second half. Cards in the trump suit are always higher than cards not in the trump suit.
-    - For example, if diamond is the trump suit, then the order is A:diamonds: > K:diamonds: > ... > 2:diamonds: > ... > A:spades::clubs::hearts: > ... > 2:spades::clubs::hearts:
+    - For example, if diamond is the trump suit, then the order is A :diamonds: > K :diamonds: > ... > 2 :diamonds: > ... > A :spades: :clubs: :hearts: > ... > 2 :spades: :clubs: :hearts:
 
 ## Initial setup
 
