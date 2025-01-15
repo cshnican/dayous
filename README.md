@@ -3,38 +3,72 @@
 ## Etymology
 The word *dayous* comes from the Farsi word ([definition here](https://www.urbandictionary.com/define.php?term=dayous), [another definition here](https://en.wikipedia.org/wiki/Dayouth)).
 
-## Overall objective
-This game can be played by 2-8 people and can involve one or multiple poker card decks. The game can take from 5 minutes (2 person, 1 deck) to up to 1h (5 persons, 2 decks). During the game, each player takes term to attack other players and defend themselves. The overall goal is to **not be the last person to have cards on their hand**. If you are the last person to still have cards, you are the *dayous*. 
+## Objective
+Dayous is a 2–8 player game using one or more decks of poker cards. A game lasts from 5 minutes (2 players, 1 deck) to an hour (5 players, 2 decks). The goal is simple: don’t be the last person holding cards. If you are, you’re the dayous.
 
-## Elements
-- The lowest card in the game is 2, whereas the highest card in the game is A.
-- One suit will be drawn as the **trump suit** in the first half of the game, and another trump suit will be drawn for the second half of the game. Cards in the trump suit are always higher than cards not in the trump suit.
-- The order looks like this: A of trump suit > K of trump suit > ... > 2 of trump suit > A of non-trump suits > ... > 2 of non-trump suits.
+## Key Rules
+- A (highest) -> 2 (lowest)
+- One suit is chosen as the trump suit for the first half of the game. A new trump suit is selected for the second half. Cards in the trump suit are always higher than cards not in the trump suit.
+    - For example, if diamond is the trump suit, then the order is A:diamonds: > K:diamonds: > ... > 2:diamonds: > ... > A:spades::clubs::hearts: > ... > 2:spades::clubs::hearts:
 
 ## Initial setup
-At the start of the game:
 
+### Dealing cards
 - Each player gets 7 cards if using 1 deck or 10 cards if using 2 or more decks.
-- The remaining cards are placed face down in the center and split equally into 2 decks.
 
-One deck is chosen at random, and its top card is flipped. The suit of this card becomes the **trump suit** for the first half of the game.
-Place the flipped card's deck under the other deck, keeping the flipped card face up and sticking out from the deck.
+### Drawing the first trump suit
+- Place the remaining cards face down and split evenly into 2 decks.
+- Flip the top card of one deck to determine the trump suit.
+- Place this deck under the other deck, with the flipped card sticking out face up.
 
-The person who has the lowest card under the trump suit in their hand starts the game. If multiple persons have the lowest card, among them, the person with the second lowest card starts the game. The person who starts the game also chooses the direction (clockwise/counterclockwise) of the game.
+### Deciding the first player
+- The player with the lowest card in the trump suit starts. If there’s a tie, the next lowest card decides.
+- The starting player also sets the play direction (clockwise or counterclockwise).
 
 ## Gameplay
-During one round, a player attacks the player next to them (as determined by the direction of the game) with at least 1 card. If the player wants to attack with multiple cards, they should be of the same number.
 
-The person being attacked can do one of the following things:
-- They put down a card of the same number and pass the attack to the person next to them
-- For each card they are attacked with, they respond with either a card of the same suit but of higher number, or a card under the trump suit (if they are attacked with a card of the trump suit, they can only respond with a higher numbered card of the trump suit). If they start responding, they cannot pass the attack to the next person.
+### Attacking
+- The attacker plays 1 or more cards of the same rank (number on the card) against the next player.
 
-At the same time, other players besides the attacker and the responder can join the attack by putting down any card of the same number with those on the table (e.g. if the person is attacked with a 5 of diamond and they respond with a 9 of diamond, then other players can put down 5 and 9 of any suit), and the person being attacked needs to respond to all of them. 
+### Defending (colloquially: responding to reviewers' questions)
+The defender has 3 options:
+- **Pass**: Put down one (or more) card of the same rank as the attacking card(s) to pass them to the next player. 
+    - Note: if the number of cards to be passed is more than the number of cards the next player has, then the cards cannot be passed. 
+- **Defend**: Play a higher card of the same suit or a trump card (higher trump cards are needed to defend against trump card attacks). Once defending starts, passing is no longer allowed.
+- **Use a joker**: Pass the attack back to the original attacker and reverse the play direction. The joker then goes to the discard pile. 
+    - Note: if there is more than 1 rank of cards on the table, jokers cannot be used. 
 
-If the player cannot respond to all the attacks, they have to take all the cards on the table to their hand, and they will lose their turn to be the attacker next round.
+### Additional attacks (colloquially: asking questions)
+- Other players can join the attack by playing cards matching ranks already on the table. The total attacks cannot exceed the defender’s hand size.
+    -  Example: if the person is attacked with a 5 of diamond and they respond with a 9 of diamond, then other players can put down 5 and 9 of any suit.
 
-If thee player successfully responds to all the attacks, then all cards on the table go to the discarded pile and are removed from the game. They will be the attacker next round.
+### Responding to attacks
+- If the defender cannot handle all attacks, they take all table cards into their hand and lose their next turn as the attacker.
+- If the defender successfully defends, all table cards go to the discard pile, and the defender becomes the next attacker.
 
-At the end of the round, each person needs to have at least 7 cards (10 cards for 2 decks). If they don't have enough cards, they have to draw from the deck in order to have 7 (1 deck) or 10 (2 decks) cards.
+### Refill hands
+At the end of the round, each person needs to have at least 7 cards (10 cards for 2+ decks). If they don't have enough cards, they have to draw from the deck in order to have 7 cards (10 cards for 2+ decks).
+
+## Change of the trump suit
+- When the flipped trump card reaches the top of the deck, a new trump suit is chosen randomly.
+- After everyone finishes refilling their hands, flip the top card to determine the trump suit for the second half.
 
 ## Endgame
+- Once the deck is empty, players can no longer draw cards, and the **endgame** starts
+- The game ends when only one player still has cards, making them the **dayous**.
+
+
+## Common terminology
+- **No further questions**: use this term to signal the defender that you don't have additional attacks for them (source: lawyers telling the judge they don't have further questionns for the witness).
+- **Moving the field forward / being prosocial**: trying hard to respond to all the incoming attacks and move the cards to the discard pile (otherwise the same cards will be used to attack over and over again).
+- **Eric Martínez**: Aces of non-trump suits.
+- **Dr. Eric Harper Martínez Esq. J.D. Harvard, Ph.D. MIT**: Ace(s) of the trump suit.
+- **Contribution**: the number of cards going to the discard pile after a successful defense.
+    - 2 cards: Journal of Vision
+    - 4 cards: PLoS ONE
+    - 6 cards: Cognition
+    - 8 cards: PNAS
+    - 10 cards: Nature
+    - 12+ cards: Science
+- **Publication fee**: the number of high cards (e.g. face cards and trump cards) used for defending a round of attacks.
+
