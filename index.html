@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dayous - Card Game Rules</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #4CAF50;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            margin: 10px 0 20px 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .terminology {
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-left: 4px solid #4CAF50;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            color: #666;
+        }
+
+        footer a {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dayous - A Card Game Forked from the Russian Game Durak</h1>
+</header>
+
+<main>
+    <h2>Etymology</h2>
+    <p>The name <em>dayous</em> comes from the Farsi word (<a href="https://www.urbandictionary.com/define.php?term=dayous" target="_blank">definition here</a>, <a href="https://en.wikipedia.org/wiki/Dayouth" target="_blank">another definition here</a>).</p>
+
+    <h2>Objective</h2>
+    <p>Dayous is a 2–8 player game using one or more decks of poker cards. A game lasts from 5 minutes (2 players, 1 deck) to an hour (5 players, 2 decks). The goal is simple: <strong>don’t be the last person holding cards.</strong> If you are, you’re the <em>dayous</em>.</p>
+
+    <h2>Key Rules</h2>
+    <ul>
+        <li><strong>Card Order:</strong> A (highest) → 2 (lowest)</li>
+        <li>One suit is chosen as the trump suit for the first half of the game. A new trump suit is selected for the second half. Trump cards always outrank non-trump cards.</li>
+        <li>Example: A♦ > K♦ > ... > 2♦ > A♠/♣/♥ > ... > 2♠/♣/♥</li>
+    </ul>
+
+    <h2>Initial Setup</h2>
+    <h3>Dealing Cards</h3>
+    <ul>
+        <li>Each player gets 7 cards if using 1 deck or 10 cards if using 2 or more decks.</li>
+    </ul>
+
+    <h3>Drawing the First Trump Suit</h3>
+    <ul>
+        <li>Place the remaining cards face down and split evenly into 2 decks.</li>
+        <li>Flip the top card of one deck to determine the trump suit.</li>
+        <li>Place this deck under the other deck, with the flipped card sticking out face up.</li>
+    </ul>
+
+    <h3>Deciding the First Player</h3>
+    <ul>
+        <li>The player with the lowest card in the trump suit starts. If there’s a tie, the next lowest card decides.</li>
+        <li>The starting player also sets the play direction (clockwise or counterclockwise).</li>
+    </ul>
+
+    <h2>Gameplay</h2>
+    <h3>Attacking</h3>
+    <p>The attacker plays 1 or more cards of the same rank (number) against the next player.</p>
+
+    <h3>Defending</h3>
+    <p>The defender has 3 options:</p>
+    <ul>
+        <li><strong>Pass:</strong> Put down one or more cards of the same rank as the attacking card(s) to pass them to the next player (if the next player has enough cards).</li>
+        <li><strong>Defend:</strong> Play a higher card of the same suit or a trump card. Defending disallows passing.</li>
+        <li><strong>Use a Joker:</strong> Reverse the attack to the original attacker and reverse the play direction. Jokers can’t be used if multiple ranks are on the table.</li>
+    </ul>
+
+    <h3>Additional Attacks</h3>
+    <p>Other players can join the attack by playing cards matching ranks already on the table. The total number of attacks cannot exceed the defender’s hand size.</p>
+
+    <h3>Responding to Attacks</h3>
+    <ul>
+        <li>If the defender cannot handle all attacks, they take all cards on the table into their hand and lose their next turn as the attacker.</li>
+        <li>If the defender successfully defends, all table cards go to the discard pile, and the defender becomes the next attacker.</li>
+    </ul>
+
+    <h3>Refill Hands</h3>
+    <p>At the end of the round, players draw cards to maintain at least 7 (1 deck) or 10 (2+ decks).</p>
+
+    <h2>Change of the Trump Suit</h2>
+    <p>When the flipped trump card reaches the top of the deck, a new trump suit is chosen randomly. After all hands are refilled, flip the top card to determine the trump suit for the second half.</p>
+
+    <h2>Endgame</h2>
+    <p>When the deck is empty, players can no longer draw cards. The game ends when only one player still has cards, making them the <em>dayous</em>.</p>
+
+    <h2>Common Terminology</h2>
+    <div class="terminology">
+        <p><strong>No further questions:</strong> Signals the defender that no additional attacks will be made.</p>
+        <p><strong>Moving the field forward:</strong> Successfully defending to move cards to the discard pile.</p>
+        <p><strong>Eric Martínez:</strong> Aces of non-trump suits.</p>
+        <p><strong>Dr. Eric Harper Martínez Esq. J.D. Harvard, Ph.D. MIT:</strong> Aces of the trump suit.</p>
+        <p><strong>Contribution:</strong> The number of cards moved to the discard pile after a successful defense:</p>
+        <ul>
+            <li>2 cards: Journal of Vision</li>
+            <li>4 cards: PLoS ONE</li>
+            <li>6 cards: Cognition</li>
+            <li>8 cards: PNAS</li>
+            <li>10 cards: Science</li>
+            <li>12+ cards: Nature</li>
+        </ul>
+        <p><strong>Publication fee:</strong> The number of high cards used to defend a round of attacks.</p>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2025 Dayous Game.</p>
+</footer>
+
+</body>
+</html>

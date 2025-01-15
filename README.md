@@ -60,7 +60,7 @@ At the end of the round, each person needs to have at least 7 cards (10 cards fo
 
 ## Common terminology
 - **No further questions**: use this term to signal the defender that you don't have additional attacks for them (source: lawyers telling the judge they don't have further questionns for the witness).
-- **Moving the field forward / being prosocial**: trying hard to respond to all the incoming attacks and move the cards to the discard pile (otherwise the same cards will be used to attack over and over again).
+- **Moving the field forward / being prosocial**: trying hard to respond to all the incoming attacks and move the cards to the discard pile (otherwise the same cards will be used to attack over and over again; i.e. the field is not going forward).
 - **Eric Martínez**: Aces of non-trump suits.
 - **Dr. Eric Harper Martínez Esq. J.D. Harvard, Ph.D. MIT**: Ace(s) of the trump suit.
 - **Contribution**: the number of cards going to the discard pile after a successful defense.
@@ -68,7 +68,7 @@ At the end of the round, each person needs to have at least 7 cards (10 cards fo
     - 4 cards: PLoS ONE
     - 6 cards: Cognition
     - 8 cards: PNAS
-    - 10 cards: Nature
-    - 12+ cards: Science
+    - 10 cards: Science
+    - 12+ cards: Nature
 - **Publication fee**: the number of high cards (e.g. face cards and trump cards) used for defending a round of attacks.
 
