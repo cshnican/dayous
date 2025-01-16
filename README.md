@@ -60,6 +60,8 @@ At the end of the round, each person needs to have at least 7 cards (10 cards fo
 
 ## Common terminology
 - **No further questions**: use this term to signal the defender that you don't have additional attacks for them (source: lawyers telling the judge they don't have further questionns for the witness).
+- **Did somebody say <any card already on the table>**: use this term to signal the defender that you are about to attack.
+- **Can I not attack**: someone might say this either when they have an extremely good hand (then by attacking, they will be wasting their good defending card) or when they pretend to have an extremely good hand. 
 - **Moving the field forward / being prosocial**: trying hard to respond to all the incoming attacks and move the cards to the discard pile (otherwise the same cards will be used to attack over and over again; i.e. the field is not going forward).
 - **Eric Martínez**: Aces of non-trump suits.
 - **Dr. Eric Harper Martínez Esq. J.D. Harvard, Ph.D. MIT**: Ace(s) of the trump suit.
