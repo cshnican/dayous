@@ -1,10 +1,10 @@
 # Dayous - a card game forked from the Russian game дурак / durak
 
 ## Etymology
-The word *dayous* comes from the Farsi word ([definition here](https://www.urbandictionary.com/define.php?term=dayous), [another definition here](https://en.wikipedia.org/wiki/Dayouth)).
+The word *dayous* comes from the Farsi word ([definition here](https://www.urbandictionary.com/define.php?term=dayous)).
 
 ## Objective
-Dayous is a 2–8 player game using one or more decks of poker cards. A game lasts from 5 minutes (2 players, 1 deck) to an hour (5 players, 2 decks). The goal is simple: don’t be the last person holding cards. If you are, you’re the dayous.
+Dayous is a 2–8 player game using one or more decks of poker cards. A game lasts from 5 minutes (2 players, 1 deck) to an hour (5 players, 2 decks). The goal is simple: don’t be the last person holding cards. If you are, you’re the *dayous*.
 
 ## Key Rules
 - A (highest) -> 2 (lowest)
@@ -55,7 +55,7 @@ At the end of the round, each person needs to have at least 7 cards (10 cards fo
 
 ## Endgame
 - Once the deck is empty, players can no longer draw cards, and the **endgame** starts
-- The game ends when only one player still has cards, making them the **dayous**.
+- The game ends when only one player still has cards, making them the *dayous*.
 
 
 ## Common terminology
@@ -63,8 +63,6 @@ At the end of the round, each person needs to have at least 7 cards (10 cards fo
 - **Did somebody say &lt;any card already on the table&gt;**: use this term to signal the defender that you are about to attack.
 - **Can I not attack**: someone might say this either when they have an extremely good hand (then by attacking, they will be wasting their good defending card) or when they pretend to have an extremely good hand. 
 - **Moving the field forward / being prosocial**: trying hard to respond to all the incoming attacks and move the cards to the discard pile (otherwise the same cards will be used to attack over and over again; i.e. the field is not going forward).
-[//]:  - **Eric Martínez**: Aces of non-trump suits.
-[//]:  - **Dr. Eric Harper Martínez Esq. J.D. Harvard, Ph.D. MIT**: Ace(s) of the trump suit.
 - **Contribution**: the number of cards going to the discard pile after a successful defense.
     - 2 cards: Journal of Vision
     - 4 cards: PLoS ONE
