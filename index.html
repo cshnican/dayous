@@ -42,6 +42,15 @@
             margin: 10px 0;
             padding: 0 20px;
         }
+        .terminology {
+            margin-top: 20px;
+            padding: 15px;
+            background: #e8f5e9;
+            border-left: 4px solid #4CAF50;
+        }
+        .terminology h3 {
+            margin-top: 0;
+        }
         .code {
             font-family: "Courier New", Courier, monospace;
             background: #dfe6e9;
@@ -127,14 +136,25 @@
                 <li>The game ends when only one player still has cards, making them the <em>dayous</em>.</li>
             </ul>
         </section>
-        <section>
-            <h2>Common Terminology</h2>
+        <div class="terminology">
+            <h3>Common Terminology</h3>
             <ul>
-                <li><strong>No further questions</strong>: Signal the defender that you don't have additional attacks for them.</li>
-                <li><strong>Moving the field forward</strong>: Responding to all attacks to move cards to the discard pile.</li>
-                <li><strong>Contribution</strong>: Number of cards going to the discard pile after a successful defense.</li>
+                <li><strong>No further questions:</strong> Indicates no additional attacks for the defender.</li>
+                <li><strong>Did somebody say [card rank]:</strong> A signal to attack with a specific card.</li>
+                <li><strong>Moving the field forward:</strong> Trying to respond to all attacks and move cards to the discard pile.</li>
+                <li><strong>Contribution:</strong> The number of cards sent to the discard pile after a successful defense.
+                    <ul>
+                        <li>2 cards: Journal of Vision</li>
+                        <li>4 cards: PLoS ONE</li>
+                        <li>6 cards: Cognition</li>
+                        <li>8 cards: PNAS</li>
+                        <li>10 cards: Science</li>
+                        <li>12+ cards: Nature</li>
+                    </ul>
+                </li>
+                <li><strong>Publication fee:</strong> The number of high cards used for defending a round of attacks.</li>
             </ul>
-        </section>
+        </div>
     </main>
     <footer>
         &copy; 2025 Dayous Card Game. All rights reserved.
